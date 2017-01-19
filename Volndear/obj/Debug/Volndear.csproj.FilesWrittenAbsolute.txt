@@ -1,0 +1,7 @@
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/bin/Debug/Volndear.dll.mdb
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/bin/Debug/Volndear.dll
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/obj/Debug/Volndear.dll
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/obj/Debug/Volndear.dll.mdb
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/bin/Debug/SQLite-net.dll
+/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/Volndear/bin/Debug/SQLitePCL.raw.dll

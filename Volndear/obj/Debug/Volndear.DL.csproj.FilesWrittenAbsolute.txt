@@ -1,0 +1,7 @@
+/Users/mac/Documents/Volndear/Volndear/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/mac/Documents/Volndear/Volndear/bin/Debug/Volndear.dll.mdb
+/Users/mac/Documents/Volndear/Volndear/bin/Debug/Volndear.dll
+/Users/mac/Documents/Volndear/Volndear/obj/Debug/Volndear.dll
+/Users/mac/Documents/Volndear/Volndear/obj/Debug/Volndear.dll.mdb
+/Users/mac/Documents/Volndear/Volndear/bin/Debug/SQLite-net.dll
+/Users/mac/Documents/Volndear/Volndear/bin/Debug/SQLitePCL.raw.dll

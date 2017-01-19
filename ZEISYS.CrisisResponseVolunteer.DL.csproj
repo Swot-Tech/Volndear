@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{6F082175-CFF7-4FEF-8BD9-87654BBD6E4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ZEISYS.CrisisResponseVolunteer.DL</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>ZEISYS.CrisisResponseVolunteer.DL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\CRV.cs" />
+    <Compile Include="Entities\TextMessages.cs" />
+    <Compile Include="Entities\UserDetails_temp.cs" />
+    <Compile Include="Entities\UserGroup_temp.cs" />
+    <Compile Include="Entities\UserIC_temp.cs" />
+    <Compile Include="Entities\Rank.cs" />
+    <Compile Include="Entities\IndividualUsers_temp.cs" />
+    <Compile Include="Entities\CRV_temp.cs" />
+    <Compile Include="Entities\Chapter.cs" />
+    <Compile Include="Entities\Grid.cs" />
+    <Compile Include="Entities\Level.cs" />
+    <Compile Include="Entities\LoginStatus.cs" />
+    <Compile Include="CRVDatabase.cs" />
+    <Compile Include="ChapterDatabase.cs" />
+    <Compile Include="CRV_tempDatabase.cs" />
+    <Compile Include="GridDatabase.cs" />
+    <Compile Include="TextMessagesDatabase.cs" />
+    <Compile Include="LevelDatabase.cs" />
+    <Compile Include="LoginStatusDatabase.cs" />
+    <Compile Include="RankDatabase.cs" />
+    <Compile Include="Entities\GetAllUsersByRegId_Result.cs" />
+    <Compile Include="Entities\GridEntity.cs" />
+    <Compile Include="Entities\ServerTextMessages.cs" />
+    <Compile Include="Entities\GetTextMessages.cs" />
+    <Compile Include="Entities\Event.cs" />
+    <Compile Include="Entities\Schedule.cs" />
+    <Compile Include="EventDatabase.cs" />
+    <Compile Include="ScheduleDatabase.cs" />
+    <Compile Include="Entities\EventDownloadContainer.cs" />
+    <Compile Include="Entities\ScheduleEntityForIOS.cs" />
+    <Compile Include="Entities\Registration.cs" />
+    <Compile Include="RegistrationDataBase.cs" />
+    <Compile Include="Entities\Venue.cs" />
+    <Compile Include="VenueDatabase.cs" />
+    <Compile Include="Entities\ScheduleDownloadEntity.cs" />
+    <Compile Include="Entities\NewChatEntity.cs" />
+    <Compile Include="Entities\ChatEntity.cs" />
+    <Compile Include="Entities\UserGrid.cs" />
+    <Compile Include="UserGridDatabase.cs" />
+    <Compile Include="Entities\EnumGlobal.cs" />
+    <Compile Include="Entities\UploadContainer.cs" />
+    <Compile Include="Entities\GetGridEntity_Result.cs" />
+    <Compile Include="Entities\GetRankEntity_Result.cs" />
+    <Compile Include="Entities\DownloadEntity.cs" />
+    <Compile Include="Entities\CRVMaster.cs" />
+    <Compile Include="CRVMasterDatabase.cs" />
+    <Compile Include="Entities\ResourceEntity.cs" />
+    <Compile Include="ResourceEntityDatabase.cs" />
+    <Compile Include="Entities\UserDataEntity.cs" />
+    <Compile Include="Entities\ArchiveTextmessageEntity.cs" />
+    <Compile Include="Entities\MultiRoute.cs" />
+    <Compile Include="Entities\FullDataContainer.cs" />
+    <Compile Include="Entities\TrainingEntity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\ZEISYS.CrisisResponseVolunteer.Core\ZEISYS.CrisisResponseVolunteer.Core.csproj">
+      <Project>{5C6570AD-BEDC-44DD-BB96-060FFF5C5A16}</Project>
+      <Name>ZEISYS.CrisisResponseVolunteer.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEISYS.CrisisResponseVolunteer.Logging\ZEISYS.CrisisResponseVolunteer.Logging.csproj">
+      <Project>{4B5EDFD1-9B78-45AF-9DF0-7C361785DA3D}</Project>
+      <Name>ZEISYS.CrisisResponseVolunteer.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

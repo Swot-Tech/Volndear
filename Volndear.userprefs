@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{2141281A-F096-4EE8-A0BF-6165BB7C8C11}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.Volndear.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Volndear Status">
+    <Files>
+      <File FileName="iOS/Screens/Events/AddNewEventViewController.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="59" Column="53" />
+      <File FileName="iOS/Common/TabBarController.cs" Line="83" Column="68" />
+      <File FileName="iOS/Screens/HomeScreenViewController.cs" Line="216" Column="8" />
+      <File FileName="iOS/Screens/Events/EventsViewController.cs" Line="362" Column="60" />
+      <File FileName="Volndear Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/iOS/HomeViewController.cs" line="16" column="1" />
+      <Breakpoint file="/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/iOS/HomeViewController.cs" line="47" column="1" />
+      <Breakpoint file="/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/iOS/Screens/MapViewController.cs" line="44" column="1" />
+      <Breakpoint file="/Volumes/OS X Install ESD/Users/mac/Documents/Volndear/iOS/Screens/HomeScreenViewController.cs" line="213" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Volndear.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.81D3D25E-E778-4197-B724-0EB5D8AA72C3" />
+</Properties>
